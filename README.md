@@ -107,3 +107,14 @@ __INTERFACE 'EXERCISE'__
 
 - La interfaz Exercise es una interfaz simple que define un solo método, execute(). Esta interfaz se utiliza como un contrato para todas las clases que representan un ejercicio en tu proyecto. Cada clase de ejercicio implementa esta interfaz y proporciona su propia implementación del método execute().
 - El método execute() no toma ningún argumento y no devuelve ningún valor. Cuando se llama a este método, se espera que la clase de ejercicio realice su tarea principal. En el contexto de tu proyecto, parece que la tarea principal de cada ejercicio es mostrar una interfaz de usuario y realizar alguna operación cuando se interactúa con esa interfaz.
+
+
+__CLASE MAIN__
+
+
+- La clase Main es el punto de entrada de la aplicación. Cuando se ejecuta la aplicación, se crea una ventana de JFrame con el título "Ejercicios". Esta ventana tiene un tamaño de 960x760, se cierra cuando se presiona el botón de cierre de la ventana, y tiene un diseño de cuadrícula con 14 filas y 1 columna.
+- Se crea un arreglo de objetos Exercise, cada uno de los cuales representa un ejercicio diferente. Cada ejercicio es una instancia de una clase que implementa la interfaz Exercise.
+- Para cada ejercicio en el arreglo, se crea un botón con el texto "Ejercicio " seguido del número del ejercicio. Cuando se presiona este botón, se ejecuta el método execute del ejercicio correspondiente.
+- Además, se crea un botón "Salir" que, cuando se presiona, cierra la aplicación.
+- Finalmente, se establece la ubicación de la ventana en el centro de la pantalla y se hace visible.
+- En resumen, la clase Main crea una interfaz de usuario que permite al usuario seleccionar y ejecutar diferentes ejercicios.
