@@ -1,5 +1,5 @@
 # Ejercicios Tema 5. Algoritmia básica: ordenación y búsqueda
-
+Proyecto sobre Ejercicios del tema 5 desarrollado por Gabriel Hernanz Rodríguez.
 LINK: https://github.com/GabriHR/Ejercicios_Tema_5.git
 
 ## DESCRIPCIÓN
