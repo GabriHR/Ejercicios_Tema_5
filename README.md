@@ -58,3 +58,14 @@ __(EJ 8) 20 MINUTOS__
 -- generateRandomDna(): Este método genera una cadena de ADN de longitud aleatoria (entre 100 y 800) compuesta por las bases de ADN "A", "T", "G" y "C".  
 -- countGenes(): Este método cuenta el número de genes en la cadena de ADN. Un gen se define como la secuencia de inicio "ATG".  
 -- execute(): Este método crea una interfaz de usuario con un área de texto para mostrar la cadena de ADN y el número de genes, un botón para generar una nueva cadena de ADN y contar los genes, y un botón para volver al menú principal. Cuando se hace clic en el botón para generar, se genera una nueva cadena de ADN, se cuenta el número de genes y se actualiza el área de texto.
+
+
+__(EJ 9) 20 MINUTOS__
+
+
+- El código del Ejercicio 9 es una aplicación de escritorio en Java que permite al usuario seleccionar un archivo de texto y ordenar las palabras de cada línea en orden alfabético.
+- Cuando se ejecuta, se muestra una ventana con dos botones: "Ordenar archivo" y "Menú Principal".
+- Al hacer clic en "Ordenar archivo", se abre un selector de archivos. Una vez que el usuario selecciona un archivo, el programa lee el contenido del archivo y lo muestra en una nueva ventana titulada "Archivo original".
+- Luego, en esta ventana, el usuario puede presionar un botón titulado "Archivo ordenado". Al hacerlo, se cierra la ventana "Archivo original" y se abre una nueva ventana titulada "Archivo ordenado". En esta ventana, se muestra el contenido del archivo original, pero con las palabras de cada línea ordenadas en orden alfabético.
+- Además, en la ventana "Archivo ordenado", el usuario tiene la opción de seleccionar otro archivo para ordenar, haciendo clic en el botón "Elegir más archivos", o de cerrar todas las ventanas y volver al menú principal, haciendo clic en el botón "Menú Principal".
+- Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
