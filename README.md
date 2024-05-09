@@ -51,3 +51,10 @@ __(EJ 7 ) 5 MINUTOS__
 
 - Ejercicio_7: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una interfaz de usuario con un área de texto para mostrar el cálculo del coeficiente binomial, un botón para realizar el cálculo, y un botón para volver al menú principal. Cuando se hace clic en el botón para calcular, se muestran cuadros de diálogo para introducir los valores de n y k, se calcula el coeficiente binomial utilizando la clase BinomialCoefficientCalculator, y se actualiza el área de texto.  
 - BinomialCoefficientCalculator: Esta clase tiene un método calculate(int n, int k) que calcula el coeficiente binomial de manera recursiva. Si k es 0 o igual a n, devuelve 1. De lo contrario, devuelve la suma de calculate(n - 1, k - 1) y calculate(n - 1, k). Esto efectivamente calcula el coeficiente binomial según la fórmula C(n, k) = C(n-1, k) + C(n-1, k-1).
+
+__(EJ 8) 20 MINUTOS__
+
+- Ejercicio_8: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una interfaz de usuario con un área de texto para mostrar una cadena de ADN generada aleatoriamente y el número de genes en ella, un botón para generar una nueva cadena de ADN y contar los genes, y un botón para volver al menú principal. Cuando se hace clic en el botón para generar, se genera una nueva cadena de ADN, se cuenta el número de genes (definidos como la secuencia de inicio "ATG") y se actualiza el área de texto.  
+-- generateRandomDna(): Este método genera una cadena de ADN de longitud aleatoria (entre 100 y 800) compuesta por las bases de ADN "A", "T", "G" y "C".  
+-- countGenes(): Este método cuenta el número de genes en la cadena de ADN. Un gen se define como la secuencia de inicio "ATG".  
+-- execute(): Este método crea una interfaz de usuario con un área de texto para mostrar la cadena de ADN y el número de genes, un botón para generar una nueva cadena de ADN y contar los genes, y un botón para volver al menú principal. Cuando se hace clic en el botón para generar, se genera una nueva cadena de ADN, se cuenta el número de genes y se actualiza el área de texto.
