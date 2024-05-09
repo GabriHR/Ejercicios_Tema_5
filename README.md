@@ -41,3 +41,10 @@ __(EJ 5) 20 MINUTOS__
 -- generateRandomArray(): Este método genera un array de 10 números aleatorios entre 0 y 99.  
 -- findMax(int[] array, int index): Este método encuentra el valor máximo en el array de manera recursiva. Comienza en el índice proporcionado y compara el valor en este índice con el valor máximo en el resto del array.  
 -- execute(): Este método crea una interfaz de usuario con un área de texto para mostrar el array y su valor máximo, un botón para generar un nuevo array y calcular su valor máximo, y un botón para volver al menú principal. Cuando se hace clic en el botón para calcular el nuevo máximo, se genera un nuevo array, se encuentra su valor máximo y se actualiza el área de texto.
+
+__(EJ 6) 30 MINUTOS__
+
+- Ejercicio_6: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una interfaz de usuario con un área de texto para mostrar la conversión de un número hexadecimal a decimal, un botón para realizar la conversión, y un botón para volver al menú principal. Cuando se hace clic en el botón para convertir, se muestra un cuadro de diálogo para introducir un número hexadecimal, se convierte a decimal utilizando la clase HexadecimalToDecimalConverter, y se actualiza el área de texto.  
+- HexadecimalToDecimalConverter: Esta clase tiene un método convert(String hex, int length) que convierte un número hexadecimal a decimal de manera recursiva. Si la longitud del número hexadecimal es 1, devuelve el valor decimal del carácter. De lo contrario, convierte el último carácter a decimal y lo suma al resultado de convertir el resto del número multiplicado por 16.
+
+  
