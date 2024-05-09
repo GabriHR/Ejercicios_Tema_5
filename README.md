@@ -77,3 +77,13 @@ __(EJ 10) 15 MINUTOS__
 -  Al hacer clic en "Buscar en archivo", se abre un selector de archivos. Una vez que el usuario selecciona un archivo, el programa lee el contenido del archivo línea por línea y busca la palabra ingresada en cada línea.
 -  Si se encuentra la palabra, se muestra un cuadro de diálogo con el número de línea y la posición en la línea donde se encontró la palabra. Si no se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra no fue encontrada.  Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
 -  El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
+
+
+__(EJ 11) 15 MINUTOS__
+
+
+- El código del Ejercicio 11 es una aplicación de escritorio en Java que permite al usuario buscar una palabra específica en un archivo de texto.  Cuando se ejecuta, se muestra una ventana con un campo de texto para ingresar la palabra a buscar, y dos botones: "Buscar en archivo" y "Menú Principal".
+- Al hacer clic en "Buscar en archivo", se abre un selector de archivos. Una vez que el usuario selecciona un archivo, el programa lee el contenido del archivo, divide cada línea en palabras, ordena las palabras y realiza una búsqueda binaria para encontrar la palabra ingresada.
+- Si se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra fue encontrada. Si no se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra no fue encontrada.
+- Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
+-  El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
