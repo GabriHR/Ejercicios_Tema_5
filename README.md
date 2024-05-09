@@ -22,3 +22,9 @@ __(EJ2) 20MINUTOS__
 - Ejercicio_2: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una instancia de RecursiveNaturalNumberPrinter y utiliza esta para imprimir los números naturales del 1 al 10. Luego, muestra el resultado en una ventana de Swing.  
 - NaturalNumberPrinter: Esta es una interfaz que define un método printNumbers(int a, int d). Este método está destinado a imprimir los números naturales en el rango de a a d.  
 - RecursiveNaturalNumberPrinter: Esta es una clase que implementa la interfaz NaturalNumberPrinter. Implementa el método printNumbers(int a, int d) de una manera recursiva. Si a es menor o igual a d, añade a a una cadena y luego llama a printNumbersRecursive(a + 1, d, numbers). Esto efectivamente imprime todos los números naturales en el rango de 'a' a 'd'.
+
+__(EJ3) 15 MINUTOS__
+
+- Ejercicio_3: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), genera números aleatorios con una cantidad aleatoria de dígitos (entre 1 y 10) y los muestra en una ventana de Swing.  
+- DigitCounter: Esta es una interfaz que define un método countDigits(int number). Este método está destinado a contar la cantidad de dígitos en un número.  
+- RecursiveDigitCounter: Esta es una clase que implementa la interfaz DigitCounter. Implementa el método countDigits(int number) de una manera recursiva. Si number es menor que 10 y mayor que -10, devuelve 1. De lo contrario, devuelve 1 más el resultado de countDigits(number / 10). Esto efectivamente cuenta la cantidad de dígitos en un número.
