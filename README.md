@@ -99,3 +99,11 @@ __(EJ 12) 20 MINUTOS__
 - El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.  Si ocurre un error al parsear la fecha, se muestra un cuadro de diálogo con un mensaje de error.
 
 __(EJ 13) 30 MINUTOS__
+
+- El código del Ejercicio 13 es una aplicación de escritorio en Java que genera fechas aleatorias, las ordena y las muestra al usuario.
+- Cuando se ejecuta, se muestra una ventana con cuatro botones: "Ejecutar", "Ordenar y mostrar", "Listar fechas" y "Menú Principal".
+- Al hacer clic en "Ejecutar", se generan 10 fechas aleatorias entre el 1 de enero de 1900 y el 31 de diciembre de 2020, y se agregan a una lista de fechas.
+- Al hacer clic en "Ordenar y mostrar", se ordenan las fechas en la lista en orden ascendente utilizando el algoritmo de ordenamiento rápido (quick sort), y luego se imprimen en la consola.
+- Al hacer clic en "Listar fechas", se muestra un cuadro de diálogo con todas las fechas en la lista, en el orden en que se encuentran actualmente en la lista.
+- El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
+- La clase Mejora_Algoritmos contiene el algoritmo de ordenamiento rápido (quick sort) que se utiliza para ordenar las fechas. Este algoritmo toma un arreglo de fechas y los índices de inicio y fin del segmento del arreglo que se desea ordenar, y ordena las fechas en ese segmento en orden ascendente o descendente, dependiendo del valor del parámetro ascendente.
