@@ -69,3 +69,11 @@ __(EJ 9) 20 MINUTOS__
 - Luego, en esta ventana, el usuario puede presionar un botón titulado "Archivo ordenado". Al hacerlo, se cierra la ventana "Archivo original" y se abre una nueva ventana titulada "Archivo ordenado". En esta ventana, se muestra el contenido del archivo original, pero con las palabras de cada línea ordenadas en orden alfabético.
 - Además, en la ventana "Archivo ordenado", el usuario tiene la opción de seleccionar otro archivo para ordenar, haciendo clic en el botón "Elegir más archivos", o de cerrar todas las ventanas y volver al menú principal, haciendo clic en el botón "Menú Principal".
 - Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
+
+__(EJ 10) 15 MINUTOS__
+
+- El código del Ejercicio 10 es una aplicación de escritorio en Java que permite al usuario buscar una palabra específica en un archivo de texto.
+-  Cuando se ejecuta, se muestra una ventana con un campo de texto para ingresar la palabra a buscar, y dos botones: "Buscar en archivo" y "Menú Principal".
+-  Al hacer clic en "Buscar en archivo", se abre un selector de archivos. Una vez que el usuario selecciona un archivo, el programa lee el contenido del archivo línea por línea y busca la palabra ingresada en cada línea.
+-  Si se encuentra la palabra, se muestra un cuadro de diálogo con el número de línea y la posición en la línea donde se encontró la palabra. Si no se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra no fue encontrada.  Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
+-  El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
