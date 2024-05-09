@@ -6,11 +6,6 @@ LINK: https://github.com/GabriHR/Ejercicios_Tema_5.git
 
 Un proyecto que recoge todo lo aprendido en el Tema 5, Algoritmia básica: ordenación y búsqueda, de la asignatura de Estructura de Datos. En este proyecto encontraremos pakcage con sus correspondientes clases e interfaces que cumplen todas las funciones de los ejercicios específicados. A su vez estarán la clase Main que ejecuta el código de todo el proyecto y lo muestra por pantalla y ña cñase Exercise para tratar a todas las clases de ejercicio de manera uniforme en el código.
 
-__INTERFACE EXERCISE__
-
-- La interfaz Exercise es una interfaz simple que define un solo método, execute(). Esta interfaz se utiliza como un contrato para todas las clases que representan un ejercicio en tu proyecto. Cada clase de ejercicio implementa esta interfaz y proporciona su propia implementación del método execute().
-- El método execute() no toma ningún argumento y no devuelve ningún valor. Cuando se llama a este método, se espera que la clase de ejercicio realice su tarea principal. En el contexto de tu proyecto, parece que la tarea principal de cada ejercicio es mostrar una interfaz de usuario y realizar alguna operación cuando se interactúa con esa interfaz.
-
 __(EJ1) 10 MINUTOS__
 
 - Ejercicio_1: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una instancia de RecursiveNaturalNumberSumCalculator y utiliza esta para calcular la suma de los primeros 10 números naturales. Luego, muestra el resultado en una ventana de Swing.  
@@ -107,3 +102,8 @@ __(EJ 13) 30 MINUTOS__
 - Al hacer clic en "Listar fechas", se muestra un cuadro de diálogo con todas las fechas en la lista, en el orden en que se encuentran actualmente en la lista.
 - El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
 - La clase Mejora_Algoritmos contiene el algoritmo de ordenamiento rápido (quick sort) que se utiliza para ordenar las fechas. Este algoritmo toma un arreglo de fechas y los índices de inicio y fin del segmento del arreglo que se desea ordenar, y ordena las fechas en ese segmento en orden ascendente o descendente, dependiendo del valor del parámetro ascendente.
+
+__INTERFACE 'EXERCISE'__
+
+- La interfaz Exercise es una interfaz simple que define un solo método, execute(). Esta interfaz se utiliza como un contrato para todas las clases que representan un ejercicio en tu proyecto. Cada clase de ejercicio implementa esta interfaz y proporciona su propia implementación del método execute().
+- El método execute() no toma ningún argumento y no devuelve ningún valor. Cuando se llama a este método, se espera que la clase de ejercicio realice su tarea principal. En el contexto de tu proyecto, parece que la tarea principal de cada ejercicio es mostrar una interfaz de usuario y realizar alguna operación cuando se interactúa con esa interfaz.
