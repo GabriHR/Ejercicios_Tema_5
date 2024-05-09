@@ -34,3 +34,10 @@ __(EJ 4) 15 MINUTOS__
 - Ejercicio_4: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una instancia de PowerCalculator y utiliza esta para calcular el resultado de elevar x a la potencia de y (en este caso, 2 al cubo). Luego, muestra el resultado y las operaciones realizadas en una ventana de Swing.  
 - Calculator: Esta es una interfaz que define un método calculate(int x, int y). Este método está destinado a realizar algún tipo de cálculo con los dos números enteros proporcionados.  
 - PowerCalculator: Esta es una clase que implementa la interfaz Calculator. Implementa el método calculate(int x, int y) de una manera recursiva para calcular el resultado de elevar x a la potencia de y. Si y es 0, devuelve 1. De lo contrario, multiplica x por el resultado de calculate(x, y - 1). Esta clase también mantiene un registro de las operaciones realizadas, que se pueden recuperar con el método getOperations().
+
+__(EJ 5) 20 MINUTOS__
+
+- MaxValueCalculator: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), genera un array de números aleatorios y encuentra el valor máximo en este array. Luego, muestra el array y su valor máximo en una ventana de Swing.  
+-- generateRandomArray(): Este método genera un array de 10 números aleatorios entre 0 y 99.  
+-- findMax(int[] array, int index): Este método encuentra el valor máximo en el array de manera recursiva. Comienza en el índice proporcionado y compara el valor en este índice con el valor máximo en el resto del array.  
+-- execute(): Este método crea una interfaz de usuario con un área de texto para mostrar el array y su valor máximo, un botón para generar un nuevo array y calcular su valor máximo, y un botón para volver al menú principal. Cuando se hace clic en el botón para calcular el nuevo máximo, se genera un nuevo array, se encuentra su valor máximo y se actualiza el área de texto.
