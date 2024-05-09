@@ -17,3 +17,8 @@ __(EJ1) 10 MINUTOS__
 - NaturalNumberSumCalculator: Esta es una interfaz que define un método calculateSum(int n). Este método está destinado a calcular la suma de los primeros n números naturales.  
    RecursiveNaturalNumberSumCalculator: Esta es una clase que implementa la interfaz NaturalNumberSumCalculator. Implementa el método calculateSum(int n) de una manera recursiva. Si n es menor o igual a 0, devuelve 0. De lo contrario, devuelve n más el resultado de calculateSum(n - 1). Esto efectivamente calcula la suma de los primeros n números naturales.
 
+__(EJ2) 20MINUTOS__
+
+- Ejercicio_2: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una instancia de RecursiveNaturalNumberPrinter y utiliza esta para imprimir los números naturales del 1 al 10. Luego, muestra el resultado en una ventana de Swing.  
+- NaturalNumberPrinter: Esta es una interfaz que define un método printNumbers(int a, int d). Este método está destinado a imprimir los números naturales en el rango de a a d.  
+- RecursiveNaturalNumberPrinter: Esta es una clase que implementa la interfaz NaturalNumberPrinter. Implementa el método printNumbers(int a, int d) de una manera recursiva. Si a es menor o igual a d, añade a a una cadena y luego llama a printNumbersRecursive(a + 1, d, numbers). Esto efectivamente imprime todos los números naturales en el rango de 'a' a 'd'.
