@@ -28,3 +28,9 @@ __(EJ3) 15 MINUTOS__
 - Ejercicio_3: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), genera números aleatorios con una cantidad aleatoria de dígitos (entre 1 y 10) y los muestra en una ventana de Swing.  
 - DigitCounter: Esta es una interfaz que define un método countDigits(int number). Este método está destinado a contar la cantidad de dígitos en un número.  
 - RecursiveDigitCounter: Esta es una clase que implementa la interfaz DigitCounter. Implementa el método countDigits(int number) de una manera recursiva. Si number es menor que 10 y mayor que -10, devuelve 1. De lo contrario, devuelve 1 más el resultado de countDigits(number / 10). Esto efectivamente cuenta la cantidad de dígitos en un número.
+
+__(EJ 4) 15 MINUTOS__
+
+- Ejercicio_4: Esta es la clase principal que implementa la interfaz Exercise. En su método execute(), crea una instancia de PowerCalculator y utiliza esta para calcular el resultado de elevar x a la potencia de y (en este caso, 2 al cubo). Luego, muestra el resultado y las operaciones realizadas en una ventana de Swing.  
+- Calculator: Esta es una interfaz que define un método calculate(int x, int y). Este método está destinado a realizar algún tipo de cálculo con los dos números enteros proporcionados.  
+- PowerCalculator: Esta es una clase que implementa la interfaz Calculator. Implementa el método calculate(int x, int y) de una manera recursiva para calcular el resultado de elevar x a la potencia de y. Si y es 0, devuelve 1. De lo contrario, multiplica x por el resultado de calculate(x, y - 1). Esta clase también mantiene un registro de las operaciones realizadas, que se pueden recuperar con el método getOperations().
