@@ -87,3 +87,15 @@ __(EJ 11) 15 MINUTOS__
 - Si se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra fue encontrada. Si no se encuentra la palabra, se muestra un cuadro de diálogo que indica que la palabra no fue encontrada.
 - Si ocurre un error al leer el archivo, se muestra un cuadro de diálogo con un mensaje de error.
 -  El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.
+
+
+__(EJ 12) 20 MINUTOS__
+
+- El código del Ejercicio 12 es una aplicación de escritorio en Java que permite al usuario agregar fechas a una lista y luego listar esas fechas.
+- Cuando se ejecuta, se muestra una ventana con un campo de texto para ingresar una fecha, y cuatro botones: "Agregar fecha", "Agregar fecha aleatoria", "Listar fechas" y "Menú Principal".
+- Al hacer clic en "Agregar fecha", se intenta parsear la fecha ingresada en el campo de texto y se agrega a la lista de fechas. Si la fecha ingresada no es válida, se muestra un cuadro de diálogo con un mensaje de error.
+- Al hacer clic en "Agregar fecha aleatoria", se genera una fecha aleatoria entre el 1 de enero de 1900 y el 31 de diciembre de 2020, y se agrega a la lista de fechas.
+- Al hacer clic en "Listar fechas", se muestra un cuadro de diálogo con todas las fechas en la lista, ordenadas en orden ascendente.
+- El botón "Menú Principal" cierra la ventana actual y vuelve al menú principal.  Si ocurre un error al parsear la fecha, se muestra un cuadro de diálogo con un mensaje de error.
+
+__(EJ 13) 30 MINUTOS__
